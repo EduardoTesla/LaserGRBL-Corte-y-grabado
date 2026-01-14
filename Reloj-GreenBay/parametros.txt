@@ -1,1 +1,28 @@
+=========================================
+PROYECTO: Reloj Green Bay Packers
+=========================================
 
+CONFIGURACIÓN DE HARDWARE:
+--------------------------
+Este diseño fue probado con:
+* Máquina: ATOMSTACK A5 PRO
+
+PARÁMETROS LASERGRBL: 
+---------------------
+* S-MAX: 850
+* Corte (Madera 3mm): Velocidad 250 mm/min | Potencia 85% | 2 pasadas
+* Grabado (Logo): Velocidad 1800 mm/min | Potencia 45% | 1 pasada
+* Resolución de grabado: 6 líneas/mm (0.1mm)
+* Enfriamiento automatico: 4 minutos de trabajo por 1 minuto de descanso
+  Ajuste encontrado en:   Grbl/Ajustes/Enfriamiento automatico
+
+
+NOTAS INKSCAPE:
+------------------
+El archivo .PNG al exportarlo debe seleccionar personalizado 
+y corresponder a las dimensiones del SVG
+
+
+NOTAS ADICIONALES:
+------------------
+El archivo SVG mantiene la escala de 40X40 cm. que es el area de trabajo del A5.
